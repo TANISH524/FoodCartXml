@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/menuPage">
+
+    <fragment
+        android:id="@+id/menuPage"
+        android:name="com.tanish.coderrootstask.MenuPage"
+        android:label="fragment_menu_page"
+        tools:layout="@layout/fragment_menu_page" />
+    <fragment
+        android:id="@+id/cart2"
+        android:name="com.tanish.coderrootstask.Cart"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+</navigation>
